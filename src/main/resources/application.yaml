@@ -1,0 +1,15 @@
+server:
+  port: 10086
+
+spring:
+  data:
+    mongodb:
+      # 路由字符串:
+      uri: mongodb://mongodb:mongodb@192.168.43.33:27048,192.168.43:27049/articledb
+# 副本集字符串:
+#      uri: mongodb://192.168.43.33:27018,192.168.43.33:27019,192.168.43.33:27020/articledb?connect=replicaSet&slaveOk=true&readPreference=secondaryPreferred&replicaSet=cluster
+#      host: 192.168.43.33
+#      database: articledb
+#      port: 27017
+#      username: mongodb
+#      password: mongodb
